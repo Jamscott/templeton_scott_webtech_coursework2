@@ -1,0 +1,22 @@
+.login-wrapper {
+    width: 100%;
+    box-shadow: 0 0 90px #E2E2E2;
+    height: 350px;
+    padding: 20px;
+}
+
+.action {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.action button {
+    height: 80px;
+    width: 100%;
+    background: #EE7674;
+    border: 0;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .2s ease-in;
+}

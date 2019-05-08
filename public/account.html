@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Bubbles</title>
+        <link rel="stylesheet" href="stylesheets/main.css">
+        <link rel="stylesheet" href="stylesheets/account.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/Login">Login</a></li>
+              <li><a href="/signup">Signup</a></li>
+              <li><a href="/account">Account</a></li>
+            </ul>
+        </nav>
+
+        <div class="wrapper">
+            <h1 class="header" id="name-header">Hi, James!</h1>
+            <h1 class="header" id="sub-header"><i class="fas fa-comments"></i>    You have 2 chatrooms</h1>
+
+            <br>
+            <div class="actions">
+                <button type="button" class="new" onclick="createChatRoom();"><i class="fas fa-comments"></i>      Create new Chat Room</button>
+                <input type="text" name="message">
+            </div>
+
+            <div class="convo" id="convos">
+                <ul>
+                    <li class="convobox" id="">
+                        <h1>Flat group chat</h1>
+                        <p>Users: James, Scott, Euan</p>
+                    </li>
+
+                    <li class="convobox">
+                        <h1>We Hack</h1>
+                        <p>Users: James, Scott, Euan</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer><p>Created by Scott Templeton</p></footer>
+        <script type="text/javascript" src="javascript/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Bubbles</title>
+        <link rel="stylesheet" href="stylesheets/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body onload="updatePage();">
+
+        <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/Login">Login</a></li>
+              <li><a href="/signup">Signup</a></li>
+              <li><a href="/account">Account</a></li>
+            </ul>
+        </nav>
+        <br>
+        <div class="wrapper">
+            <h1 class="header">Turbo Ciphers</h1>
+            <br>
+
+            <div class="text-fields">
+                <div class="orignal-message">
+                    <label for="ogName">Orignal Message</label>
+                    <input id="message" type="text">
+                </div>
+                <div class="encoded-message">
+                    <label>Encoded Message</label>
+                    <input id="output">
+                </div>
+                <div class="keywordbox" id="keywordBox">
+                    <label>Keyword</label>
+                    <input id="keywordValue">
+                </div>
+            </div>
+
+            <div class="actions">
+                <div class="buttons">
+                    <button type="button" class="encode" onclick="encode();"><i class="fas fa-lock"></i>    Encode</button>
+                    <button type="button" class="decode" onclick="decode();"><i class="fas fa-unlock"></i>    Decode</button>
+                </div>
+
+                <div class="cipher-dropdown">
+                    <button type="button">
+                        <p>Selected Cipher</p>
+                        <h2 id="selectCipher">Rot13</h2>
+                    </button>
+                    <div class="dropdown" id="dropdown">
+                        <a class="active">Rot13</a>
+                        <a onclick="selectCipher(Cipher.VIGENERE);">Vigenère</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer><p>Created by Scott Templeton</p></footer>
+        <script type="text/javascript" src="javascript/main.js"></script>
+    </body>
+</html>

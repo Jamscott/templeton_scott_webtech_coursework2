@@ -1,0 +1,181 @@
+body {
+    font-family: Circular Std;
+}
+
+nav {
+    width: 620px;
+    margin: 50px auto;
+}
+
+nav ul {
+    margin: 0 auto;
+}
+
+nav ul li {
+    margin-left: 60px;
+    font-size: 20px;
+    display: inline;
+    transition: .2s left;
+    color: #95989A;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #95989A;
+}
+
+nav ul li:hover { 
+    text-decoration: line-through;
+}
+
+.header {
+    font-weight: 300;
+    color: #6E6F6F;
+    text-align: center;
+}
+
+.wrapper {
+    width: 620px;
+    margin: 50px auto;
+    min-height: 600px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    opacity: .4;
+    margin-top: 30px;
+}
+
+
+
+
+
+.text-fields {
+    width: 100%;
+    border: 1px solid #CBCDCE;
+    box-shadow: 0 0 90px #E2E2E2;
+}
+
+.text-fields label {
+    margin: 20px;
+    position: absolute;
+    color: #95989A;
+}
+
+.text-fields input {
+    width: 100%;
+    min-height: 140px;
+    padding: 12px 20px;
+    border: 1px solid #E2E2E2;
+    font-size: 30px;
+    color: #6E6F6F;
+    resize: horizontal;
+}
+
+.actions {
+    margin-top: 40px;
+    height: 85px;
+    width: 100%;
+
+    box-shadow: 0 0 90px #E2E2E2;
+}
+
+.actions .encode {
+    height: 100%;
+    width: 20%;
+    margin: 0;
+    float: left;
+    background: #EE7674;
+    border: 0;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .2s ease-in;
+}
+
+.actions .encode:hover {
+    background: #BA4B49;
+}
+
+.actions .decode {
+    height: 100%;
+    width: 20%;
+    margin: 0;
+    float: left;
+    font-size: 15px;
+    font-weight: 500;
+    background: #DFE0E0;
+    color: #6E6F6F;
+    border: 0;
+    transition: .2s ease-in;
+}
+
+.actions .decode:hover {
+    background: #B4B9B9;
+}
+
+.cipher-dropdown {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+.cipher-dropdown button {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.cipher-dropdown button p {
+    color: #95989A;
+    font-size: 15px;
+    margin 0;
+}
+
+.cipher-dropdown button h2 {
+    margin-top: 5px;
+    color: #6E6F6F;
+}
+
+.dropdown {
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    transition: .3s ease-in;
+    transform: translateY(-8em);
+    box-shadow: 0 10px 50px #E2E2E2;
+}
+
+.dropdown a {
+    color: #6E6F6F;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    font-size: 20px;
+    padding: 30px;
+
+}
+
+.dropdown a .active {
+    background: #FAFAFA;
+}
+
+.dropdown a:hover {
+    background-color: #FAFAFA;
+}
+
+.cipher-dropdown:hover .dropdown{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.
+

@@ -1,0 +1,80 @@
+.convobox {
+    height: 80px;
+    margin: 8px 0;
+    background-color: #F4F4F4;
+    padding: 10px;
+}
+
+.convobox h1 {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 30px;
+    opacity: .5;
+}
+
+.convobox p {
+    margin: 0;
+    margin-left: 20px;
+    opacity: .3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.convo ul li {
+    margin: 0;
+    margin-top: 10;
+    transition: .2s ease-in;
+}
+
+.convo ul li:hover {
+    margin: 0;
+    margin-top: 10;
+    transform: scale(1.1);
+}
+
+.actions {
+    height: 100px;
+    width: 620px;
+    position: fixed;
+    margin-top: 360px;
+}
+
+.actions .new {
+    height: 100%;
+    width: 40%;
+    margin: 0;
+    float: left;
+    background: #EE7674;
+    border: 0;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .2s ease-in;
+}
+
+.actions .new:hover {
+    background: #BA4B49;
+}
+
+.noChat {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    opacity: .5;
+    margin-top: 100px;
+}
+
+.actions input {
+    width: 60%;
+    height: 100%;
+    padding: 12px 20px;
+    border: 1px solid #E2E2E2;
+    font-size: 30px;
+    color: #6E6F6F;
+}
+
